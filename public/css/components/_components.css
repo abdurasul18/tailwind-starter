@@ -1,0 +1,31 @@
+* {
+  --primary: #0c1829;
+  --primary-light: #142338;
+  --secondary: #1a79ff;
+  --third: #2cdb66;
+  --fourth: #fdd412;
+  --orange: #ff7105;
+}
+@font-face {
+  font-family: Museo;
+  src: url("../../fonts/museosanscyrl_500.woff");
+}
+:focus-visible {
+  outline-color: transparent;
+}
+html,
+body {
+  font-family: Museo;
+  color: #fff;
+  scroll-behavior: smooth;
+  letter-spacing: -0.03em;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+}
+body::-webkit-scrollbar-thumb {
+  background: rgb(119, 119, 119);
+}
+body::-webkit-scrollbar-track {
+  background: rgba(69, 79, 87, 0.5);
+}
